@@ -1,5 +1,5 @@
 # docker run -it ubuntu:16.04 /bin/bash
-FROM ubuntu:16.04
+FROM ubuntu:24.10
 LABEL maintainer="max.kellermeier at hotmail.de"
 
 RUN apt-get update && \
